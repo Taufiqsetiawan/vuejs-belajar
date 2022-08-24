@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Router link home & about -->
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/about">About</RouterLink>
+
+
+
+<!-- .,/,/,[LOL] -->
+
+<header style="color: rgb(195, 230, 40);">
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+
+    <div class="wrapper">
+      <HelloWorld msg="MUMETT!!" />
+
+      <nav>
+         <RouterLink to="/personal">Personal</RouterLink>
+         <RouterLink to="/skill">Skill</RouterLink>
+      </nav>
+    </div>
+    
+     
+  </header>
+
+  <RouterView />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ....q -->
+
+<!-- <div>
+    <div>
+        <div>
+            <img style="width: 150px;" src="jaz.jpeg" alt="">
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- .. -->
+    <!-- <div class="list">
+
+        <div class="text">
+            <h4>Taufiq setiawan</h4>
+            <h2><i>skill ability</i></h2>
+        </div>
+
+    <div style="display: flex; ">
+<div><img style="width: 100px;  margin-left: 40px;" src="data:image/png;base64,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" alt="">
+</div>
+   <div class="copt" style="margin-left: -42px;">
+    <div style="margin-left: 40px;">FIGMA Skills</div>
+    <ul style="list-style: none;">
+        <li>
+            <table border="" style="border-style: none;">
+                <tr >                
+                    <td style="width: 300px;" >
+                    <div class="" style="background-color: blue;color: blue; width: 190px;">p</div> 
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <li style="font-weight: 900;">65% progres...</li>
+    </ul>
+   </div>
+</div>
+<div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, quae deleniti illo, officiis ratione laudantium impedit delectus ullam excepturi .</p></div>
+
+
+<br>
+
+<div style="display: flex; ">
+    <div class="">
+       
+        <img style="width: 70px;  margin-left: 50px;" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="">
+    </div>
+       <div class="copt" style="margin-left: -25px;">
+        <div style="margin-left: 40px;">HTML Skills :</div>
+        <ul style="list-style: none;">
+            <li>
+                <table border="" style="border-style: none;">
+                    <tr>                
+                        <td style="width: 300px;" >
+                        <div style="background-color: blue; color: blue; width: 290px;">p</div> 
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li style="font-weight: 900;">95% progres...</li>
+        </ul>
+       </div>
+    </div>
+    <div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, quae deleniti illo, officiis ratione laudantium impedit delectus ullam excepturi .</p></div>
+
+    <br>
+
+    <div style="display: flex; ">
+        <div class="">
+           
+            <img style="width: 100px;  margin-left: 40px;" src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="">
+        </div>
+           <div class="copt" style="margin-left: -42px;">
+            <div style="margin-left: 40px;">BOOTSRAP Skills :</div>
+            <ul style="list-style: none;">
+                <li>
+                    <table border="" style="border-style: none;">
+                        <tr>                
+                            <td style="width: 300px;" >
+                            <div style="background-color: blue; color: blue; width: 150px;">p</div> 
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li style="font-weight: 900;">50% progres...</li>
+            </ul>
+           </div>
+        </div>
+        <div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, quae deleniti illo, officiis ratione laudantium impedit delectus ullam excepturi .</p></div>
+
+
+        <br>
+
+        <div style="display: flex; ">
+            <div class="">
+               
+                <img style="width: 70px;  margin-left: 55px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" alt="">
+            </div>
+               <div class="copt" style="margin-left: -26px;">
+                <div style="margin-left: 40px;">LARAVEL Skills :</div>
+                <ul style="list-style: none;">
+                    <li>
+                        <table border="" style="border-style: none;">
+                            <tr>                
+                                <td style="width: 300px;" >
+                                <div style="background-color: blue; color: blue; width: 130px; font-weight: 900;">p</div> 
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li style="font-weight: 900;">44% progres...</li>
+                </ul>
+               </div>
+            </div>
+            <div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, quae deleniti illo, officiis ratione laudantium impedit delectus ullam excepturi .</p></div>
+
+    </div> -->
+
+
+
+
+</body>
+</html>

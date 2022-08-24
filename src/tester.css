@@ -1,0 +1,11 @@
+.p{
+    margin-top: 100px;
+    width: 100px;
+    list-style: none;
+    margin-right: 20px;
+    position: fixed;
+    font-weight: lighter;
+    border-style: dotted;
+    margin: auto;
+    box-shadow: black 5px 10px ;
+}
