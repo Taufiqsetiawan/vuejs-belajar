@@ -26,7 +26,7 @@
     </ul>
    </div>
 </div>
-<div style="margin-left: 50px; margin-top: -20px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?.</i></p></div>
+<div style="margin-left: 50px; margin-top: -10px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>estimasi Proges Figma ini berkembang lebih baik.</i></p></div>
 
 
 <br>
@@ -52,7 +52,8 @@
         </ul>
        </div>
     </div>
-    <div style="margin-left: 50px; margin-top: -20px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, .</i></p></div>
+    <div style="margin-top: -20px;"><p style="font-size: 12px; width: 400px; color: grey;"><i><div style="margin-left: 50px; margin-top: -20px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>estimasi Proges HTML sudah cukup menguasai beberapa bahasa di HTML!!.</i></p></div>
+</i></p></div>
 
     <br>
 
@@ -77,7 +78,8 @@
             </ul>
            </div>
         </div>
-        <div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</i></p></div>
+<div style="margin-left: 50px; margin-top: -10px;"><p style="font-size: 12px; width: 400px; color: grey;"><i> Proges Bootsrap ini mencapai setengah perjalanan progres Terukan!! .</i></p></div>
+        <div style="margin-top: -20px; margin-left: 50px;"><p style="font-size: 12px; width: 400px; color: grey;"><i></i></p></div>
 
 
         <br>
@@ -103,7 +105,7 @@
                 </ul>
                </div>
             </div>
-            <div style="margin-left: 50px; margin-top: -20px;"><p style="font-size: 12px; width: 400px; color: grey;"><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quasi?Lorem ipsum, quae deleniti.</i></p></div>
+            <div style="margin-left: 50px; margin-top: -10px;"><p style="font-size: 12px;color: grey;"><i>Untuk di Laravel Skill pengguna butuh banyak pengalaman di pemograman bahasa LARAVEL untuk mengembangkan Progress!! </i></p></div>
 <br><br>
     </div>
 

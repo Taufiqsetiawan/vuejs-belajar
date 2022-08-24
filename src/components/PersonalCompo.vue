@@ -6,10 +6,10 @@
         <br><br>
         <div style="display:flex;">
             <div>
-                <img style="width: 550px;" src="/kulbet.jpeg" alt="">
+                <img class="" style="width: 550px; border-radius: 100px;" src="/kulbet.jpeg" alt="">
             </div>
 
-            <div style="margin-left: 10px; margin-top: -30px; ">
+            <div style="margin-left: 20px; margin-top: -30px; ">
                 <h1 style="color: #30568f; font-size: 100px;">TAUFIQ SETIAWAN</h1>
                 <h2 style=" margin-left: 240px;  margin-top: 50px; color: blue;">introduction & role</h2>
                 <div style="display: flex; margin-top: 50px;">

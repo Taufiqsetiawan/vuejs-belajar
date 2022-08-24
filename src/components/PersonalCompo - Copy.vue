@@ -6,7 +6,7 @@
         <br><br>
         <div style="display:flex;">
             <div>
-                <img style="width: 550px;" src="/kulbet.jpeg" alt="">
+                <img style="width: 550px; border-radius: 20px 20px 20px 20px;" src="/kulbet.jpeg" alt="">
             </div>
 
             <div style="margin-left: 10px; margin-top: -30px; ">
